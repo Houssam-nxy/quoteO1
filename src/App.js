@@ -1,19 +1,11 @@
 import './App.css';
+import QuoteOfTheDay from './QuoteOfTheDay';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Start <code>Quotes</code> project.
-        </p>
-        <a
-          className="App-link"
-          href="##"
-          rel="noopener noreferrer"
-        >
-          Go
-        </a>
+        <QuoteOfTheDay />
       </header>
     </div>
   );
